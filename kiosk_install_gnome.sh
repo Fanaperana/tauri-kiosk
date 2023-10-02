@@ -9,6 +9,9 @@ apt update && apt upgrade -y
 # Install the required libraries, X server, GNOME Shell, gnome-session, dconf-cli, and dbus-x11
 apt install --no-install-recommends xorg libwebkit2gtk-4.0-37 libgl1 libc6 gnome-shell gnome-session dconf-cli dbus-x11 gdm3 -y
 
+# Install missing glyphs for the keyboard
+apt install --no-install-recommends fonts-noto-color-emoji fonts-symbola -y
+
 # Install the Tauri App
 # Make sure to replace 'your-tauri-app.deb' with the actual path to your Tauri app's .deb package
 dpkg -i tauriapp.deb
