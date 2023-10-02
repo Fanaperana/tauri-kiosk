@@ -60,3 +60,6 @@ chown kiosk:kiosk /home/kiosk/.xsession
 
 # Reboot the System for changes to take effect
 reboot
+
+# Use this to prevent gdm3 to login to the default admin user and ask for login.
+# sudo usermod -u 9999 admin  # replace 'admin' with the usernames as necessary
