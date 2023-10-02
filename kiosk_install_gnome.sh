@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Ubuntu image
+# https://cdimage.ubuntu.com/ubuntu/releases/20.04/release/inteliot/ubuntu-20.04-live-server-amd64+intel-iot.iso
+
 # Update and Upgrade the System
 apt update && apt upgrade -y
 
